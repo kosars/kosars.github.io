@@ -24,6 +24,23 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Главная", "Index", "Home")</li>
                     <li>@Html.ActionLink("О нас", "About", "Home")</li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button">Продукты <i class="caret"></i></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a >@Html.ActionLink("Софт", "Soft", "Home")</a>
+                            </li>
+                            <li>
+                                <a>@Html.ActionLink("Создание Сайтов", "Web", "Home")</a>
+                            </li>
+                            <li>
+                                <a>@Html.ActionLink("Игры", "Game", "Home")</a>
+                            </li>
+                            <li>
+                                <a>@Html.ActionLink("Виртуаьная реальность", "Vr", "Home")</a>
+                            </li>
+                        </ul>
+                    </li>
                     <li>@Html.ActionLink("Контакты", "Contact", "Home")</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
@@ -51,6 +68,8 @@
                                 <a href="https://vk.com/club_d4k" target="_blank"><i class="fa fa-3x fa-fw fa-vk text-inverse"></i></a>
                                 <a href="https://twitter.com/" target="_blank"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
                                 <a href="https://www.youtube.com/channel/UC3rwIBNhqW2qQlAzn0mwNZw" target="_blank"><i class="fa fa-3x fa-fw fa-youtube text-inverse"></i></a>
+                                <p class=" text-info text-right"> <br><br></p>
+                                <p>&copy; @DateTime.Now.Year – приложение ASP.NET</p>
                             </div>
                         </div>
                         <div class="row">
