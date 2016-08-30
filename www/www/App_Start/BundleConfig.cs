@@ -21,10 +21,15 @@ namespace www
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
+                      "~/Scripts/respond.js",
+                      "~/Scripts/animate-css.js",
+                      "~/Scripts/PageScroll2id.min.js",
+                      "~/Scripts/parallax.min.js",
+                      "~/Scripts/common.js" ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/font-awesome.min.css",
                       "~/Content/site.css"));
         }
     }
