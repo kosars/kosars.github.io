@@ -1,0 +1,90 @@
+html{
+	overflow-x: hidden;
+}
+body{
+	font-size: 14px;
+	/**cursor: url(http://cur.cursors-4u.net/symbols/sym-5/sym454.cur),
+	progress !important;**/
+	cursor: url(../img/mc-ride.cur),
+	progress !important;
+	background: url(../img/mc.gif) #ffffff fixed center;
+}
+header{
+	background-color: black;
+	position: absolute;
+	height:15%;
+	width:100%;
+	border-bottom:2px groove white; 
+}
+footer{
+	border-top:2px groove white;
+	background-color: black;
+	position: absolute;
+	bottom: 0%;
+	height:25%;
+	width:100%;
+}
+.diaogue_background{
+	background: linear-gradient(180deg, #9b20ff,#2F1446);
+	transform: skew(15deg, 0); 
+	width: 35%;
+	height: 100%;
+	position: absolute;
+	right:-7%;
+	border-left:2px groove white;
+}
+.diaogue_background img{
+	transform: skew(-15deg, 0);
+	position: absolute;
+	width: 55%;
+	top:19%;
+	left: 15%; 
+	animation: head  2s infinite ease-in-out; 
+}
+header p{
+	padding-top:5%;
+	padding-left:2%;
+	font-size: 12px;
+	color:#4F4F4F;
+}
+footer p{
+	padding-top: 2%;
+	padding-left:2%;
+	font-size: 30px;
+}
+img{
+
+}
+p {
+	
+	font-family: retro_computer;
+	color:#fff;
+}
+p::selection, ul li::selection {
+	background-color:#fff;
+	color:#9B20FF;
+}
+h1,h2 {
+	color:#000;
+	font-family: retro_computer;
+}
+h1::selection, h2::selection {
+	color:#fff;
+	background-color: #000;
+}
+
+@keyframes head {
+/**from {top:19%;}
+50% {top:21%;}
+to {top:19%;}**/
+from {top:31%; height: 40%;}
+50% {top:29%;height: 70%;}
+to {top:31%;height: 40%;}
+}
+
+
+@font-face {
+	font-family: retro_computer; /* Имя шрифта */
+    src: url(../fonts/12081.ttf); /* Путь к файлу со шрифтом */
+	font-style: normal;
+}
