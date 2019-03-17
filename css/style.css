@@ -1,64 +1,53 @@
-.content-box{
-	 display: flex;
-	 justify-content: space-between;
-	 flex-direction: row;
-	 flex-wrap: wrap;
-	 flex-basis: 50%;
-	 width: 90%;
-	 margin: 0% 5% 0% 5%;
-	 column-count: 2;
+/*
+text color:#36384c;
+link : #849974
+white :#f9dccd*/
+body{
+	
 
 }
-.content-box
-.content
-.img-box{
-	width: 48%;
-	height: auto;
-	margin: 3% 1% 1% 1%;
+.col,
+.col-md-12,
+.col-lg-4{
+	overflow: hidden;
+	color:#36384c; 
+}
+footer .row{
+	max-width: 100%;
+	margin:0 0 0 0;
+	background-color: #36384c;
+	color: #f9dccd;
+}
+footer .copyrights{
+	margin:3em 0em 1em 5em;
+}
+footer .footer-text{
+	margin: 0 0 0 5em;
+
+}
+footer a {
+	color: #849974;
+
+}
+footer a:hover {
+	color: #849974;
+
 }
 
-.content-box
-.content
-.img-box
-img{
-	width: 100%;
-	height: auto;
-}
-/*.content-box > * {
-    flex: 1 1 450px;
-}*/
 /* @keyframes head {
 from {top:19%;}
 50% {top:21%;}
 to {top:19%;}
 }
 */
-
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
 
 @font-face {
 	font-family: retro_computer;
     src: url(../fonts/12081.ttf);
 	font-style: normal;
 } */
-
-/* Smartphones (вертикальная и горизонтальная ориентация) ----------- */
-@media only screen 
-and (min-width : 320px) 
-and (max-width : 480px) {
-
-}
-
-/* iPad 3**********/
-@media only screen 
-and (min-width: 768px) 
-and (max-width: 1024px){
-
-
-} 
-
-/* Настольные компьютеры и ноутбуки ----------- */
-@media only screen  
-and (min-width: 1224px){
-
-}
 
