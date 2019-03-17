@@ -3,8 +3,9 @@ text color:#36384c;
 link : #849974
 white :#f9dccd*/
 body{
-	
-
+}
+header{
+	height: 5em;
 }
 .col,
 .col-md-12,
