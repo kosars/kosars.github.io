@@ -80,6 +80,10 @@ img{
 	max-height: 100%;
 }
 
+.garage{
+	margin-top: 25%;
+}
+
 @font-face {
 	font-family: retro_computer;
     src: url(../fonts/12081.ttf);
