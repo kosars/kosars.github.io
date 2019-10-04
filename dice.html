@@ -17,7 +17,7 @@
             </div>
 
             <div class="col-md-12 col-lg-9">
-                <div class="container d-none d-md-block">
+                <div class="container d-none ">
                     <div class="row">
                         <div class="d-flex col-12" v-for="(dice,index) in dices">
                                 <div class="col-2 d-flex justify-content-center" v-if="dice.name !== 'dX'"><button class="btn btn-outline-primary" v-on:click="roll(dice)">{{dice.name}}</button></div>
@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 
-                <div class="container d-block d-md-none">
+                <div class="container">
                         <div class="row align-items-center ">
                             <div class="d-flex col-12" v-for="(dice,index) in dices">
                                    
@@ -50,14 +50,18 @@
                     </div>
             </div>
 
-            <div class="col-md-4 col-lg-3">
-                
-                <div class="col-12">
-                    <h5>Log <button class="btn btn-secondary" v-on:click="clearLog()">Clear</button></h5>   
+            <div class="col-lg-3">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <h5>Log <button class="btn btn-secondary" v-on:click="clearLog()">Clear</button></h5>   
+                        </div>
+                        <textarea readonly v-model="rollsLog"  rows="15" class="form-control"
+                            placeholder="There is a log of your rolls This field records your latest roll at its top.">
+                        </textarea>
+                    </div>
                 </div>
-                <textarea readonly v-model="rollsLog"  rows="15" class="form-control col-12"
-                    placeholder="There is a log of your rolls This field records your latest roll at its top.">
-                </textarea>
+                
                 
             </div>
         </div>					
