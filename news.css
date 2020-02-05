@@ -1,0 +1,17 @@
+@media screen and (max-width: 1024px) {
+    .news-navigation{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .news-navigation .tags-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .news-navigation .tags-container .tag{margin-bottom: 15px;}
+    .news-navigation .find-container{
+        margin: 0 auto;
+        display: block;
+    }
+  }

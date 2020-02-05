@@ -1,0 +1,55 @@
+main section .family-block{
+    max-width:1280px;
+    margin: 80px auto 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+main section .family-block .block{
+    max-width: 640px;
+}
+main section .family-block .text{
+    max-width: 514px;
+    padding-top: 30px;
+    padding-left: 90px;
+}
+main section .family-block .block img{
+    width: 100%;
+}
+main section .family-block .block .family-link{
+    margin-top: 120px;
+}
+main section .family-block .block h4{
+    margin-bottom: 26px;
+}
+@media screen and (max-width: 1024px) {
+    main section .family-block{
+        max-width:330px;
+        margin: 10px auto 0px auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    main section .family-block .block{
+        max-width: 330px;
+    }
+    main section .family-block .text{
+        max-width: 330px;
+        padding-top: 0;
+        padding-left: 0px;
+    }
+    main section .family-block .block img{
+        width: 100%;
+    }
+    main section .family-block .block .family-link{
+        margin-top: 40px;
+        text-align: center;
+    }
+    main section .family-block .block h4{
+        font-family: 'OpenSans-Regular';
+        font-size: 18px;
+        margin-bottom: 26px;
+    }
+}

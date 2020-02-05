@@ -1,0 +1,343 @@
+@import "uikit.css" screen;
+
+header{
+    height: 786px;
+    background-image: url(img/header-background.jpg);
+}
+input, textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px #000 solid;
+    font-size: 20px;
+    font-family:'OpenSans-Regular';
+    padding-top: 45px;
+    padding-bottom: 8px;
+    outline: none;
+    -moz-appearance: none;
+    resize: none;
+    overflow: auto;
+}
+textarea::placeholder{
+    vertical-align: bottom;
+}
+.intro{
+    color: #fff;
+    height: 100%;
+    padding-top: 75px;
+    padding-left: 13%;
+}
+.intro .intro-text{
+    font-size: 85px;
+    font-family: 'OpenSans-Bold';
+}
+.intro .intro-subtext{
+    font-size: 27px;
+}
+.intro .button{
+    color: #fff;
+    font-size: 18px;
+    background: #00501f;
+    text-decoration: none;
+    align-self: center;
+    padding: 13px 50px;
+    transition: all .2s linear;
+}
+.intro a{
+    display: block;
+    margin-top: 75px;
+    width:200px;
+    text-align: center;
+}
+.intro .button:hover{
+    background-color: #fff;
+    color:#00501f;
+    border:2px #00501f solid;
+}
+main section .icon{
+    height: 70px;
+    display: block;
+    margin: 0px auto;
+}
+main section .icon-4{
+    height: 68px;
+}
+main section .icon-5{
+    height: 56px;
+}
+main section .icon-6{
+    height: 32px;
+}
+main section .icon-7{
+    height: 80px;
+}
+main section .icon-8{
+    height: 70px;
+}
+main section .double-block{
+    max-width: 1280px;
+    margin: 50px auto 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+main section .double-block .block{
+    width: 414px;
+    margin: 20px 0px;
+}
+main section .double-block .block p{
+    margin-bottom: 80px;
+}
+main section .double-block .block .icon-circle{
+    height: 224px;
+    width: 224px;
+    background-color:#00501f;
+    border-radius: 224px;
+    margin-bottom: 30px;
+}
+main section .double-block .block .icon-circle img{
+    padding: 49px;
+    height: 130px;
+}
+main section .news-links{
+    max-width: 1280px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+main section .monuments-block{
+    width: 100%;
+    height: 720px;
+    margin: 50px 0px;
+    background-image: url(img/pamyatniki-background.jpg);
+}
+main section .monuments-block .content{
+    max-width: 500px;
+    margin-left: 80px;
+    padding-top: 90px;
+}
+main section .monuments-block .content h2{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+main section .monuments-block .content .button{
+    margin-top: 65px;
+}
+
+main section .family-block{
+    max-width:1280px;
+    margin: 80px auto 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+main section .family-block .block{
+    max-width: 640px;
+}
+main section .family-block .text{
+    max-width: 514px;
+    padding-top: 30px;
+    padding-left: 90px;
+}
+main section .family-block .block img{
+    width: 100%;
+}
+main section .family-block .block .family-link{
+    margin-top: 120px;
+}
+main section .family-block .block h4{
+    margin-bottom: 26px;
+}
+main section .questions-donate-block{
+    max-width:1280px;
+    margin: 80px auto 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+main section .questions-donate-block .block{
+    max-width: 640px;
+    height: 700px;
+    padding-top: 30px;
+}
+main section .questions-donate-block .block h1{
+    text-align: left;
+}
+main section .questions-donate-block .block .button{
+    margin-top: 90px;
+}
+main section .questions-donate-block .donate{
+    max-width: 550px;
+    padding-left: 90px;
+    background-image: url(img/donate.jpg);
+}
+
+@media screen and (max-width: 1024px){
+    header{
+        background-position: top -50px right -580px;
+        width: 100%;
+    }
+    header section{
+        padding-bottom: 100px;
+    }
+    .intro{
+        padding: 0;
+        margin-top: 100px;
+    }
+    .intro .intro-text{
+        font-size: 36px;
+    }
+    .intro .intro-subtext{
+        font-size: 18px;
+    }
+    main section .icon{
+        height: 30px;
+    }
+    main section .icon-1{
+        height: 45px;
+    }
+    main section .icon-7{
+        height: 50px;
+    }
+    main section .icon-8{
+        height: 50px;
+    } 
+     main section .icon-4{
+        height: 45px;
+    }/*
+    main section .icon-5{
+        height: 56px;
+    }
+    main section .icon-6{
+        height: 32px;
+    }*/
+    main section .double-block{
+        max-width: 1280px;
+        margin: 50px auto 0px auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+    main section .double-block .block{
+        max-width: 330px;
+        margin: 20px auto;
+    }
+    main section .double-block .block a{
+        margin-bottom: 40px;
+    }
+    main section .double-block .block p{
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    main section .double-block .block .icon-circle{
+        height: 140px;
+        width: 140px;
+        background-color:#00501f;
+        border-radius: 88px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    main section .double-block .block .icon-circle img{
+        padding: 30px;
+        height: 80px;
+    }
+    main section .monuments-block .content{
+        max-width: 330px;
+        margin: 0;
+        padding: 0;
+        padding-top: 50px;
+    }
+    main section .monuments-block .content h2{
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    main section .monuments-block .content .button{
+        margin-top: 65px;
+    }
+    main section .how-to{
+        margin-top: 0;
+    }
+    main section .how-to .block{
+        margin: 0 auto;
+    }
+    main section .how-to .block p{
+        margin-bottom: 40px;
+    }
+    .how-to .block h3{
+        text-align: left;
+    }
+    main section .family-block{
+        max-width:330px;
+        margin: 10px auto 0px auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    main section .family-block .block{
+        max-width: 330px;
+    }
+    main section .family-block .text{
+        max-width: 330px;
+        padding-top: 0;
+        padding-left: 0px;
+    }
+    main section .family-block .block img{
+        width: 100%;
+    }
+    main section .family-block .block .family-link{
+        margin-top: 40px;
+        text-align: center;
+    }
+    main section .family-block .block h4{
+        font-family: 'OpenSans-Regular';
+        font-size: 18px;
+        margin-bottom: 26px;
+    }
+    main section .questions-donate-block{
+        max-width:100%;
+        margin: 0px auto 0px auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    main section .questions-donate-block .block{
+        max-width: 640px;
+        height: 550px;
+        padding-top: 0px;
+    }
+    main section .questions-donate-block .block h1{
+        text-align: left;
+    }
+    main section .questions-donate-block .block .button{
+        margin-top: 40px;
+    }
+    main section .questions-donate-block .donate{
+        padding-top: 25px;
+        max-width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+        background-image: url(img/donate.jpg);
+        background-size: 120%;
+        background-position: top 0px left -5px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    header{
+        background-size: 100%
+    }
+    main section .monuments-block{
+        background-size: 100%
+    }
+}

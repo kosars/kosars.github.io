@@ -1,0 +1,87 @@
+@import "uikit.css" screen;
+main section{
+
+}
+main .intro{
+    width: 100%;
+    position: relative;
+    padding-bottom: 0;
+}
+main .intro-img{
+    width: 100%;
+}
+main .intro-text-block{
+    position: absolute;
+    margin: 0 auto;
+    bottom: 65px;
+}
+main .intro-text, main .intro-subtext{
+    margin-left: 109px;
+    max-width: 965px;
+    color:#fff;
+}
+main .intro-text{
+    font-family:'OpenSans-Bold';
+    font-size: 60px;
+}
+main .intro-subtext{
+    font-family:'OpenSans-Regular';
+    font-size: 27px;
+}
+main .text-carousel{
+    margin: 0 auto;  
+    padding-top: 32px;
+    width:848px;
+}
+main .text-carousel p{
+    padding: 18px 0px;
+}
+.icon-7{
+    height: 80px;
+    display: block;
+    margin: 0px auto;
+}
+@media screen and (max-width: 1024px) {
+   
+    main .intro .wrapper{
+        width: 100%;
+        margin: 0 15px;  
+    }
+    main .intro{
+        width: 100%;
+        position: block;
+        padding-bottom: 0;
+    }
+    main .intro-img{
+        width: 100%;
+    }
+    main .intro-text-block{
+        position: static;
+        width: 100%;
+        margin: 0;  
+    }
+    main .intro-text, main .intro-subtext{
+        margin-left: 0px;
+        color:#000;
+    }
+    main .intro-text{
+        font-family:'OpenSans-Bold';
+        font-size: 35px;
+    }
+    main .intro-subtext{
+        font-family:'OpenSans-Regular';
+        font-size: 18px;
+    }
+    main .text-carousel{
+        width: 100%;
+    }
+    main .text-carousel p{
+        margin: 0 15px;  
+        max-width: 100%;
+        padding-top: 32px;
+    }
+    main .text-carousel p{
+        padding:0px;
+        padding-bottom: 36px;
+    }
+}
